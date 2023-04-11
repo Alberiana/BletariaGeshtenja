@@ -1,3 +1,4 @@
+
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
@@ -494,7 +495,7 @@ ul.conta_top li a {
      display: inline-block;
      font-size: 25px;
      line-height: 25px;
-     padding: 1em;
+     padding: 2em;
      text-align: center;
      border-radius: 50%;
 }
@@ -600,12 +601,12 @@ ul.conta_top li a {
 
 .quality-box {
      background: #fff;
-     height: 262px;
+     height: 250px;
      display: flex;
      align-items: center;
      justify-content: center;
      border-radius: 50%;
-     width: 100%;
+     width: 200px;
      max-width: 262px;
      margin: 0 auto;
      margin-bottom: 30px;
@@ -728,10 +729,19 @@ ul.conta_top li a {
 }
 
 .infoma {
-     display: block;
+     display: inline-block;
      margin-bottom: 30px;
 }
+.infoma1{
+     padding-left:122px;
+}
+.infoma2{
+     padding-left:332px;
+}
+.infoma1B{
+     padding-left:-522px;
 
+}
 .infoma h3 {
      text-align: left;
      font-weight: 600;
@@ -745,7 +755,7 @@ ul.conta_top li a {
 }
 
 ul.social_icon {
-     float: left;
+     float: inheritcol-md-3;
      padding-top: 30px;
 }
 
@@ -784,11 +794,15 @@ ul.social_icon li a:hover {
 }
 
 .infoma ul li img {
-     max-width: 84px;
+     max-width: 184px;
 }
 
 .pad_lrft {
-     padding-left: 40px;
+     padding-right:40px;
+}
+.container2{
+     display: inline-block;
+     flex: auto;
 }
 
 ul.fullink li {
@@ -814,7 +828,7 @@ ul.conta li {
      font-size: 17px;
      line-height: 23px;
      display: flex;
-     align-items: center;
+     /* align-items: last baseline; */
 }
 
 ul.conta li:last-child {
