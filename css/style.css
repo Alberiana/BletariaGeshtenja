@@ -245,7 +245,8 @@ button {
 
 .read_more {
      font-size: 17px;
-     background: #ffc813;
+     background: #d68e12;
+     /* background: #d68e12; */
      max-width: 171px;
      width: 100%;
      height: 48px;
@@ -349,12 +350,18 @@ button {
 }
 
 .navigation.navbar {
-     margin-top: -20px;
+     margin-top: 10px;
+     position: fixed;
+     width: 100%;
+     z-index: 999;
+     /* top:0; */
      /* transform: rotate(180deg); */
 }
 
 .navigation.navbar-expand-md .navbar-nav {
      flex-direction:row;
+     position: fixed;
+
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -367,18 +374,20 @@ button {
      text-transform: uppercase;
      writing-mode:horizontal-tb;
      text-orientation: mixed;
+     /* position: fixed; */
+
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #ffc813;
+     color: #d68e12;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #ffc813;
+     color: #d68e12;
 }
 
 .di_no {
@@ -528,7 +537,7 @@ ul.conta_top li a {
 #carouselExampleIndicators .carousel-control-next:hover,
 #carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
-     color: #ffc813;
+     color: #d68e12;
      /* color: #d96226; */
 }
 
@@ -648,7 +657,7 @@ ul.conta_top li a {
      width: 100%;
      height: 80px;
      background: transparent;
-     color: #ffc813;
+     color: #d68e12;
      font-size: 17px;
      font-weight: normal;
      border: #c0b1ad solid 1px;
@@ -669,9 +678,9 @@ ul.conta_top li a {
 .main_form .send_btn {
      font-size: 18px;
      transition: ease-in all 0.5s;
-     background-color: #ffc813;
+     background-color: #d68e12;
      text-transform: uppercase;
-     color: #ffc813;
+     color: #d68e12;
      max-width: 202px;
      width: 100%;
      display: block;
@@ -741,7 +750,7 @@ ul.conta_top li a {
      padding-left:332px;
 }
 .infoma1B{
-     padding-left:-522px;
+     padding-left:252px;
 
 }
 .infoma h3 {
@@ -818,7 +827,7 @@ ul.fullink li a {
 
 ul.fullink li a:hover {
      
-     color: #ffc813;
+     color: #d68e12;
      /* color: #d96226; */
 }
 
@@ -846,7 +855,7 @@ ul.conta li i {
 }
 
 ul.conta li a:hover {
-     color: #e59c78;
+     color: #d68e12;
 }
 
 
@@ -872,7 +881,7 @@ ul.conta li a:hover {
 .subsci_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #ffc813;
+     background-color: #d68e12;
      color: #fff;
      max-width: 270px;
      width: 100%;
@@ -911,7 +920,7 @@ ul.conta li a:hover {
 }
 
 .copyright a:hover {
-     color: #ffc813;
+     color: #d68e12;
 }
 
 
