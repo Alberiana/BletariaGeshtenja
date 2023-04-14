@@ -5893,6 +5893,7 @@ button.close {
 }
 
 .carousel-control-prev {
+  /* padding-left: 23px; */
   left: 0;
 }
 

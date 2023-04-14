@@ -371,14 +371,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #d96226;
+     color: #e59c78;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #d96226;
+     color: #e59c78;
 }
 
 .di_no {
@@ -528,7 +528,8 @@ ul.conta_top li a {
 #carouselExampleIndicators .carousel-control-next:hover,
 #carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
-     color: #d96226;
+     color: #99471e;
+     /* color: #d96226; */
 }
 
 .banner_img {
@@ -547,9 +548,10 @@ ul.conta_top li a {
 
 .about {
      background: #fff;
-     padding: 90px 0;
-     margin-top: 180px;
+     padding: 90px 0 100px 100px;
+     margin-top: 130px;
      position: relative;
+
 }
 
 .about::before {
@@ -667,9 +669,9 @@ ul.conta_top li a {
 .main_form .send_btn {
      font-size: 18px;
      transition: ease-in all 0.5s;
-     background-color: #d96226;
+     background-color: #e59c78;
      text-transform: uppercase;
-     color: #fff;
+     color: #99471e;
      max-width: 202px;
      width: 100%;
      display: block;
@@ -815,7 +817,9 @@ ul.fullink li a {
 }
 
 ul.fullink li a:hover {
-     color: #d96226;
+     
+     color: #e59c78;
+     /* color: #d96226; */
 }
 
 ul.conta {
@@ -842,7 +846,7 @@ ul.conta li i {
 }
 
 ul.conta li a:hover {
-     color: #d96226;
+     color: #e59c78;
 }
 
 
@@ -868,7 +872,7 @@ ul.conta li a:hover {
 .subsci_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #d96226;
+     background-color: #e59c78;
      color: #fff;
      max-width: 270px;
      width: 100%;
@@ -907,7 +911,7 @@ ul.conta li a:hover {
 }
 
 .copyright a:hover {
-     color: #d96226;
+     color: #e59c78;
 }
 
 
