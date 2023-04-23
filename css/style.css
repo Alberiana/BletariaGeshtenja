@@ -691,7 +691,135 @@ ul.conta_top li a {
      padding: 13px 0;
      margin: 0 auto;
 }
+/* .layout_border {
+     width: 100%;
+     float: left;
+     border: 1px solid #000;
+     margin: 20px 0px;
+ } */
+ .products_section {
+     width: 100%;
+     float: left;
+ }
+ .layout_padding {
+     padding-top: 100px;
+     padding-bottom: 0px;
+ }
+ 
+.margin_bottom90 {
+     margin-bottom: 90px;
+ }
+ .products {
+     width: 100%;
+     font-size: 40px;
+     color: #eacccc;
+     font-weight: bold;
+     padding-left: 40%;
+     padding-bottom: 58px;
+ }
 
+ .products_text {
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #ded7d7;
+     margin: 0px;
+ }
+ .vagetables_section_2 {
+     width: 100%;
+     float: left;
+     padding: 40px 0px 0px 0px;
+ }
+ 
+ 
+ /* Zoom In #1 */
+ 
+ .hover01 figure img {
+     -webkit-transform: scale(1);
+     transform: scale(1);
+     -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+ }
+
+ .hover01 figure:hover img {
+     -webkit-transform: scale(1.3);
+     transform: scale(1.3);
+ }
+ 
+ .column {
+     margin: 15px 0px 0;
+     padding: 0;
+ }
+ 
+ .column:last-child {
+     padding-bottom: 30px;
+ }
+ 
+ .column::after {
+     content: '';
+     clear: both;
+     display: block;
+ }
+ 
+ figure {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     background: #fff;
+     overflow: hidden;
+ }
+ 
+ figure:hover+span {
+     bottom: -36px;
+     opacity: 1;
+ } 
+
+ 
+.harshal_text {
+     width: 100%;
+     float: left;
+     text-align: center;
+     color: #edae6a;
+     font-size: 22px;
+     padding-top: 20px;
+     font-weight: bold;
+     padding-bottom: 0px;
+ }
+ 
+ .rate_text {
+     width: 100%;
+     float: left;
+     text-align: center;
+     font-size: 22px;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     padding-bottom: 0px;
+ }
+ 
+ .read_bt_1 {
+     width: 170px;
+     margin: 0 auto;
+     padding-top: 20px;
+     display: flex;
+ }
+ 
+ .read_bt_1 a {
+     width: 100%;
+     float: left;
+     font-size: 18px;
+     background-color: #d68e12;
+     color: #ffffff;
+     text-align: center;
+     border-radius: 40px;
+     padding: 8px;
+ }
+ 
+ .read_bt_1 a:hover {
+     color: #fafafa;
+     background-color: #252525;
+ }
+ 
 .main_form .send_btn:hover {
      background: #000;
      color: #fff;
